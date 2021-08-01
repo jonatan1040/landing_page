@@ -82,13 +82,15 @@ input{
 }
 
 .slider_container{
-    background-image: url("top_image.jpg");
-    background-color: #ffffff; 
+    background-image: url(top_image.jpg);
+    background-color: #ffffff;
     background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1100px;
     width: 100%;
+    flex-direction: column;
+    display: flex;
 }
 
 .slider_container h2{
@@ -140,7 +142,8 @@ input{
     position: relative;
     width: fit-content;
     border-radius: 1rem;
-    left: 1150px;
+    float: right;
+    margin-right: 10%;
 }
 
 .slider_form_fields{
@@ -216,10 +219,16 @@ input{
 
 .invest_container{
     margin: auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.invest_container img{
+    width: 100%;
 }
 
 .invest{
@@ -233,17 +242,19 @@ input{
     margin: auto;
     width: 83%;
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
     justify-content: space-evenly;
     flex-direction: row;
     align-content: center;
-    padding: 150px 0;
+    /* padding: 150px 0; */
+    flex-wrap: wrap;
 }
 
 .cards_container{
     background-color: #F4AE00;
     color: white;
     padding: 60px 105px;
+    margin: 60px 0;
 }
 
 .cards_container h3{
@@ -270,7 +281,7 @@ input{
     background-size: cover; 
     color: #ffffff;
     text-align: center;
-    margin: 100px 0px;
+    /* margin: 100px 0px; */
 }
 
 .banner_section h1{
@@ -295,7 +306,7 @@ input{
     background-size: cover; 
     color: #ffffff;
     text-align: center;
-    height: 250vh;
+    height: 150vh;
 }
 
 .triangle_section button{
@@ -308,24 +319,27 @@ input{
     padding: 30px 0px;
     width: 500px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .triangle_container{
-    position: relative;
-    top: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .inside_triangle_form{
     background-color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    width: 70%;
+    /* position: relative; */
+    /* width: 100%; */
+    width: -webkit-fill-available;
     border-radius: 1rem;
-    left: 17%;
+    /* left: 17%; */
+    margin-top: 100px;
 }
 
 .inside_triangle_form h3{
@@ -349,8 +363,12 @@ input{
     color:#888;
 }
 
+.triangle_form{
+    width: 90%;
+}
+
 .triangle_terms{
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     align-items: stretch;
     justify-content: space-evenly;
@@ -360,13 +378,14 @@ input{
 }
 
 .triangle_submit{
+    text-align: center;
     background-color: #3859EC;
     margin: 50px 0;
     border-radius: 0.5rem;
     color: white;
-    padding: 15px 70px;
+    /* padding: 15px 70px; */
     font-weight: normal;
-    width: 30%;
+    width: 26%;
 }
 
 #triangle_donotshowmessage{
@@ -378,7 +397,10 @@ input{
 .input_row{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    width: 90%;
 }
 
 .input_row input{    
@@ -415,7 +437,7 @@ input{
     }
 
     .inside_slider_form{
-        left: 35px;
+        left: 18px;
     }
     
     .invest_container {
@@ -447,9 +469,9 @@ input{
         width: 70%;
     }
 
-    .triangle_container {
+    /* .triangle_container {
         top: 5%;
-    }
+    } */
 
     .footer {
         padding: 30px 20px;
@@ -458,6 +480,7 @@ input{
     .triangle_section button {
         padding: 30px 30px;
         width: fit-content;
+        margin-top: 100px;
     }
 
     .payment_method_container {
