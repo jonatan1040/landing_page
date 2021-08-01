@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="slider_section">
+        <div class="slider_container">
+            <h2>GROW YOUR PROFITS WITH<span> GOLD</span></br>INVEST IN THE<span> WORLD'S</span> MOST PRECIOUS METAL</h2>
+            <form class="slider_form" >
+                <div class="inside_slider_form">
+                <h3>Start Investing In The Precious Metal</h3>
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="phone" placeholder="Israel (+972)">
+                <input type="text" name="homephone" placeholder="Phone Number">
+                <div class="terms">
+                    <input type="checkbox" class="check" />
+                    <p>I agree to the TERMS and Conditions and Privecy Policy</p>
+                </div>
+                <input id="submit" class="submit" type="submit" value="START NOW!">
+                <div id="donotshowmessage" class="donotshowmessage">Sent successfully</div>
+                </div>
+            </form>
+            <div class="slider_banner">
+                <p>Trading gold is always trandy and worthy, it would be wise to consider gold trading to build your own fortune.</br>
+                    Gold has moving up and breaking new hights, and ensuring great returns to its investors.</p>
+            </div>
+        </div>
+    </section>
+    <section class="payment_method_section">
+    <div class="payment_method_container">
+        <img class="payment_method" src="paypal.PNG" alt="PayPal payment">
+        <img class="payment_method" src="visa.PNG" alt="Visa payment">
+        <img class="payment_method payment_small" src="mastercard.PNG" alt="MasterCard payment">
+        <img class="payment_method payment_small" src="ssl.PNG" alt="SSL payment">
+    </div>
+    </section>
+    <section class="invest_section">
+    <div class="invest_container">
+        <div>
+            <h1>INVEST IN <span>GOLD</span>, INVEST IN <span>YOU</span></h1>
+            <p>What's stopping you from trading gold?</p>
+            <p>Perhaps lack of knowledge and experience?</p>
+            <p>If so, our educational package is exactly what</p>
+            <p>you've been searching for. Including an A-Z</p>
+            <p>trainning course with everything you need</p>
+            <p>to know to start trading NOW!</p>
+            <h2>Start earning the knowladge with our</br>
+            educational package</h2>
+            <div class='invest'>
+                <button>START NOW!</button>
+            </div>
+        </div>
+        <div>
+            <img src="person.PNG" alt="working person">
+        </div>
+    </div>
+    </section>
+    <section class="cards_section">
+        <div class="cards_container">
+            <div>
+                <img src="ibooks.PNG" alt="e-book">
+            </div>
+            <h3>Videos & Articles</h3>
+            <p>All the subjects in our course</p>
+            <p>come with folllow along</p>
+            <p><span>trainning videos</span> and articles</p>
+        </div>
+        <div class="cards_container">
+            <div>
+                <img src="ibooks.PNG" alt="e-book">
+            </div>
+            <h3>Gold E-book</h3>
+            <p>An A-Z book on with</p>
+            <p>everything <span>you want</span> and</p>
+            <p>don't want to know<span> about</span></p>
+            <p><span>gold</span>, it's uses and<span> how to</span></p>
+            <p><span>profit </span>from it.</p>
+        </div>
+        <div class="cards_container">
+            <div>
+                <img src="ibooks.PNG" alt="e-book">
+            </div>
+            <h3>Gold trainning course</h3>
+            <p>Our course is carefully</p>
+            <p>constracted by the <span>best gold</span></p>
+            <p><span>traders</span> in the field</p>
+        </div>
+    </section>
+    <section class="banner_section">
+        <h1>LIMITED TIME OFFER</h1>
+        <p>Gain the experiance via our DEMO trading account with $10000 virtual money</p>
+        <button>START LEARNNING</button>
+    </section>
+    <section class="triangle_section">
+        <button>What you will learn?</button>
+        <div class="triangle_container">
+            <form class="triangle_form" >
+                <div class="inside_triangle_form">
+                <h3>Start Investing In The Precious Metal</h3>
+                <div class="input_row">
+                    <input type="text" name="fullname" placeholder="Full Name">
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+               <div class="input_row">
+                    <input type="text" name="phone" placeholder="Israel (+972)">
+                    <input type="text" name="homephone" placeholder="Phone Number">
+               </div>
+                <div class="triangle_terms">
+                    <input type="checkbox" class="check" />
+                <p>I agree to the TERMS and Conditions and Privecy Policy</p>
+                </div>
+                <input id="triangle_submit" class="triangle_submit" type="submit" value="START NOW!">
+                <div id="triangle_donotshowmessage" class="donotshowmessage">Sent successfully</div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div>
+            <p>Trading gold is always trandy and worthy, it would be wise to consider gold trading to build your own fortune.</br>
+                Gold has moving up and breaking new hights, and ensuring great returns to its investors.</br>
+                Trading gold is always trandy and worthy, it would be wise to consider gold trading to build your own fortune.</br>
+                Gold has moving up and breaking new hights, and ensuring great returns to its investors.</br>
+                Trading gold is always trandy and worthy, it would be wise to consider gold trading to build your own fortune.</br>
+                Gold has moving up and breaking new hights, and ensuring great returns to its investors.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("submit").addEventListener("click", (e)=>{
+            e.preventDefault();
+            document.getElementById("donotshowmessage").classList.remove('donotshowmessage')
+            document.getElementById("submit").style.marginBottom= "10px"
+        });
+
+        document.getElementById("triangle_submit").addEventListener("click", (e)=>{
+            e.preventDefault();
+            document.getElementById("triangle_donotshowmessage").classList.remove('donotshowmessage')
+            document.getElementById("triangle_submit").style.marginBottom= "10px"
+        });
+    </script>
+</body>
+</html>

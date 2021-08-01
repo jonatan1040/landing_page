@@ -1,0 +1,475 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    /* background-image: url("landing_page.png"); */
+    /* background-color: #ffffffe3; 
+    height: 5000px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 span{
+    color: #F4AE00;
+}
+
+h2 span{
+    color: #F4AE00;
+    letter-spacing: 2px;
+}
+
+p span{
+    color: black;
+}
+
+h1{
+    margin-bottom: 60px;
+    font-size: 38px;
+    letter-spacing: 2px;
+    padding: 40px 0;
+}
+
+h2{
+    margin-top:50px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+
+h3{
+    margin-top:50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+p{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    padding: 3px 0;
+    letter-spacing: 2px;
+}
+
+button{
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #3859EC;
+    border-radius: 1rem;
+    border-color: #3859EC;
+    box-shadow: 0px 3px 30px rgb(136 136 136 / 90%);
+    padding: 22px 132px;
+}
+
+input{
+    margin: 10px 0;
+    padding: 13px 10px;
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: #8888;
+    width: 70%;
+}
+
+.slider_section{
+    text-align: center;
+}
+
+.slider_container{
+    background-image: url("top_image.jpg");
+    background-color: #ffffff; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 1100px;
+    width: 100%;
+}
+
+.slider_container h2{
+    color: white;
+    position: relative;
+    transform: translate(0%, 50%);
+    line-height: 2;
+    margin-top:0px;
+}
+
+.slider_banner{
+    position: relative;
+    top: 22%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 21px;
+    padding: 30px 0;
+}
+
+.slider_form h3{
+    background-color: #F4AE00;
+    margin-top: 0px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color:white;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 27px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    background-color: #3859EC;
+    margin: 50px 0;
+    border-radius: 0.5rem;
+    color:white;
+    padding: 15px 70px;
+    font-weight: normal;
+    width: 75%;
+}
+
+.inside_slider_form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+    border-radius: 1rem;
+    left: 1150px;
+}
+
+.slider_form_fields{
+    margin: 35px 0;
+}
+
+.terms{
+    width: 75%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.slider_form{
+    position: relative;
+    top: 13%;
+    border-radius: 1rem;
+}
+
+.slider_form p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #888;
+}
+
+.check{
+    width: 10%;
+    margin-right: 5px;
+}
+
+.donotshowmessage{
+    display:none !important;
+}
+
+#donotshowmessage
+{
+    margin: 30px 0;
+
+}
+
+.payment_method_section{
+    background-color: white;
+    padding: 40px 0px;
+}
+
+.payment_method_container {
+    margin: auto;
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+  }
+
+.payment_small{
+    height:75px !important
+}
+
+.payment_method{
+    height:60px
+    }
+
+.invest_section{
+    background-color: white;
+    padding: 65px 0px;
+}
+
+.invest_container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.invest{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 50px;
+}
+
+.cards_section{
+    margin: auto;
+    width: 83%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    padding: 150px 0;
+}
+
+.cards_container{
+    background-color: #F4AE00;
+    color: white;
+    padding: 60px 105px;
+}
+
+.cards_container h3{
+    padding-bottom: 30px;
+}
+
+.cards_container p{
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px 0;
+    letter-spacing: 2px;
+}
+
+.cards_container div{
+    text-align: center;
+}
+
+.banner_section{
+    background-image: url("sparks.jpg");
+    background-color: #ffffff; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: #ffffff;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.banner_section h1{
+    margin-bottom: 0px;
+    font-size: 38px;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    padding-bottom: 25px
+}
+
+.banner_section button{
+    position:relative;
+    transform: translate(0%, 50%);
+    margin-top: 30px;
+}
+
+.triangle_section{
+    background-image: url("falling_gold.jpg");
+    background-color: #ffffff; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: #ffffff;
+    text-align: center;
+    height: 250vh;
+}
+
+.triangle_section button{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(255, 255, 255);
+    background-color: #484848;
+    border-radius: 1rem;
+    border-color: #484848;
+    padding: 30px 0px;
+    width: 500px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.triangle_container{
+    position: relative;
+    top: 15%;
+}
+
+.inside_triangle_form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    border-radius: 1rem;
+    left: 17%;
+}
+
+.inside_triangle_form h3{
+    background-color: #F4AE00;
+    margin-top: 0px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 27px;
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+}
+
+.triangle_form p{
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color:#888;
+}
+
+.triangle_terms{
+    width: 30%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.triangle_submit{
+    background-color: #3859EC;
+    margin: 50px 0;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 15px 70px;
+    font-weight: normal;
+    width: 30%;
+}
+
+#triangle_donotshowmessage{
+    color: black;
+    margin: 30px 0;
+}
+
+
+.input_row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.input_row input{    
+    margin: 17px 17px;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer p{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    button {
+        padding: 20px 125px;
+    }
+
+    .slider_container{
+        background-image: url("top_image.jpg");
+        background-color: #ffffff; 
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        height: 300vh;
+        width: 100%;
+    }
+
+    .inside_slider_form{
+        left: 35px;
+    }
+    
+    .invest_container {
+        flex-direction: column;
+    }
+
+    .invest_container img{
+        width: 100%;
+    }
+
+    .cards_section {
+        flex-direction: column;
+        padding:0px
+    }
+
+    .cards_container {
+        margin: 20px 0;
+    }
+
+    .input_row {
+        flex-direction: column;
+    }
+
+    .triangle_terms {
+        width: 70%;
+    }
+
+    .triangle_submit {
+        width: 70%;
+    }
+
+    .triangle_container {
+        top: 5%;
+    }
+
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .triangle_section button {
+        padding: 30px 30px;
+        width: fit-content;
+    }
+
+    .payment_method_container {
+        margin: 0; 
+        width: 100%; 
+    }
+
+    .payment_method {
+        width: 20%;
+    }
+
+    .slider_banner {
+        position: relative;
+    }
+  }
