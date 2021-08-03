@@ -204,13 +204,13 @@ input{
     align-content: center;
   }
 
-.payment_small{
+/* .payment_small{
     height:75px !important
-}
+} */
 
-.payment_method{
+/* .payment_method{
     height:60px
-    }
+    } */
 
 .invest_section{
     background-color: white;
@@ -254,7 +254,10 @@ input{
     background-color: #F4AE00;
     color: white;
     padding: 60px 105px;
-    margin: 60px 0;
+    margin: 60px 10px;
+    flex-basis: 17%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .cards_container h3{
@@ -422,39 +425,58 @@ input{
 
 @media only screen and (max-width: 600px) {
 
+    .payment_method_section,.invest_section{
+        margin: 20px;
+        padding: 0px;
+    }
+
     button {
         padding: 20px 125px;
+    }
+
+    .invest_container h1{
+        margin-bottom: 0px;
+        text-align: center;
     }
 
     .slider_container{
         background-image: url("top_image.jpg");
         background-color: #ffffff; 
         background-position: center;
+        align-items: center;
         background-repeat: no-repeat; 
         background-size: cover; 
-        height: 300vh;
+        height: 150vh;
         width: 100%;
     }
 
     .inside_slider_form{
-        left: 18px;
+        margin-right: 0;
     }
     
+    .inside_triangle_form{
+        margin-top: 0px;
+    }
+
     .invest_container {
         flex-direction: column;
     }
 
     .invest_container img{
         width: 100%;
+        margin-top: 30px;
     }
 
     .cards_section {
         flex-direction: column;
-        padding:0px
+        padding:0px;
+        width: 100%;
     }
 
     .cards_container {
-        margin: 20px 0;
+        width: 85%;
+        padding: 30px 15px;
+        margin: 15px 10px;
     }
 
     .input_row {
@@ -469,9 +491,18 @@ input{
         width: 70%;
     }
 
-    /* .triangle_container {
-        top: 5%;
-    } */
+    .triangle_section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .triangle_container{
+        display: flex;
+        justify-content: center;
+    }
 
     .footer {
         padding: 30px 20px;
@@ -480,7 +511,7 @@ input{
     .triangle_section button {
         padding: 30px 30px;
         width: fit-content;
-        margin-top: 100px;
+        margin-top: 0px;
     }
 
     .payment_method_container {
@@ -490,6 +521,10 @@ input{
 
     .payment_method {
         width: 20%;
+    }
+    
+    .payment_small{
+        height: auto;
     }
 
     .slider_banner {
