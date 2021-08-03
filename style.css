@@ -446,8 +446,22 @@ input{
         align-items: center;
         background-repeat: no-repeat; 
         background-size: cover; 
-        height: 150vh;
+        height: auto;
         width: 100%;
+    }
+
+    .slider_container h2{
+        transform: none;
+        margin-bottom: 20px;
+    }
+
+    .slider_form{
+        margin-bottom: 20px;
+    }
+
+    .slider_banner {
+        position: relative;
+        margin-bottom: 20px;
     }
 
     .inside_slider_form{
@@ -527,7 +541,4 @@ input{
         height: auto;
     }
 
-    .slider_banner {
-        position: relative;
-    }
   }
